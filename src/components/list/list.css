@@ -1,0 +1,12 @@
+.card-grid{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    margin: 0 10%;
+    gap: -5rem;
+    width: 70vw;
+}
+.collections{
+    font-size: 3rem;
+    margin:0rem 10rem ;
+    color: lightgrey;
+}

@@ -1,0 +1,30 @@
+.headcontent{
+    font-size: 4.5rem;
+    color: white;
+    width: 40rem;
+    /* font-family: poppins; */
+    width: 800;
+    margin: 25% 10%;
+}
+.thebuttons button{
+    padding: .8rem 1.8rem;
+    color: white;
+    font-size: 1rem;
+    font-weight: 600;
+    margin: -20rem 2rem;
+    border-radius: 25px;
+    background-color: rgb(58, 58, 180);
+  
+}
+.thebuttons .second{
+    padding: .8rem 1.8rem;
+    margin: -20rem 2rem;
+    border-radius: 25px;
+    border-color: brown;
+    background-color: rgba(0, 0, 0, 0.003);
+  
+}
+.complete-buton{
+    position: absolute;
+    margin: -5rem 2rem;
+}

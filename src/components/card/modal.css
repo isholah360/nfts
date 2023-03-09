@@ -1,0 +1,129 @@
+.buymodal{
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 10rem 60%;
+    top: 3rem;
+   
+}
+.com-content{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+}
+.buymodal .modal-bg{
+    height: 26rem;
+    width: 40vw;
+    position: absolute;
+    z-index: 100;
+    border-radius: 10px;
+    background-color: lightgray;
+    display: flex;
+    display: none;
+ }
+ .buymodal .modal-bg .close{
+  top: 1rem;
+ right: 2rem;
+  position: absolute;
+ font-size: 1.3rem;
+ cursor: pointer;
+  }
+  .title .title-two{
+    font-size: 1.5rem;
+     margin: .5rem 0;
+  }
+
+  .com-content .title{
+     font-size: 1rem;
+     font-weight: 700;
+     text-align: center;
+     margin: 1rem 0rem;
+     width: 35rem;
+  }
+  .buy-img-price {
+    margin: -.7rem 1rem;
+    display: flex;
+    flex: 1 1;
+   
+  }
+  .buy-img-price .compl-img{
+    height: 20rem;
+    width: 18rem;
+    border-radius: 10px;
+    /* position: absolute; */
+  }
+  .creator-img-name{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1rem ;
+    height: 4rem;
+    width: 14rem;
+    margin: 2rem 1rem;
+  }
+  .creator-img-name .creator-img {
+  height: 4rem;
+  width: 4rem;
+  border-radius: 50%;
+  }
+  .creator-img-name .creator-name {
+    font-size: 1.1rem;
+    font-family: poppins;
+    font-weight: 600;
+    width: 100%;
+    margin: 0 .8rem;
+    }
+    .stars{
+        color: rgba(255, 255, 0, 0.757);
+        font-size: 2rem;
+        margin: -1.2 -8rem;
+        letter-spacing: 2px;
+    }
+    .rate{
+        font-size: 1.2rem;
+        position: absolute;
+        margin: -1rem -1rem;
+        color: black;
+    }
+    .the-prices{
+        display: flex;
+        flex-direction: row;
+
+    }
+    .the-prices .price{
+      font-size: 1.2rem;
+      margin: 2rem 2rem;
+      font-weight: 700;
+
+    }
+
+    .modal-price .the-eth{
+      display: flex;
+      justify-content: center;
+      margin: 2rem 0rem;
+    }
+    .modal-price .the-eth .price-eth{
+        width: 12%;
+      }
+      .modal-price .the-eth p{
+       font-size: 1.5rem;
+      }
+      .modal-price .dollar{
+        font-size: 1.4rem;
+        margin: -1rem 4rem;
+        position: absolute;
+        font-weight: 700;
+       }
+       .processing{
+        padding: .8rem 1.5rem;
+        margin: 1rem -7rem;
+        position: absolute;
+        border-style: none;
+        color: white;
+        border-radius: 5px;
+        background-color: lightslategray;
+       }
+    
+

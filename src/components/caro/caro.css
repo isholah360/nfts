@@ -1,0 +1,135 @@
+
+.trend-title{
+    font-size: 2rem;
+    font-family: poppins;
+    font-weight: 600;
+    color: gainsboro;
+    margin: 2rem 8rem -2rem 8rem;
+}
+  .left{
+    top: 21.8rem; 
+    left:-2.5rem;
+    margin: 0rem 0;
+    border-radius: 50%;
+    color: aliceblue;
+    background-color: rgb(22, 21, 21);
+   
+  }
+  .right{
+    top: -6.5rem;
+    left:-6rem; 
+    border-radius: 50%;
+    color: aliceblue;
+    background-color: rgb(22, 21, 21);
+  }
+   .left, .right{
+    border-style: none;
+    margin: 1rem .2rem;
+    padding: .8rem .8rem;
+    position: relative;
+    float: left;
+   
+   }
+   .combine{
+    position: absolute;
+    z-index: 100;
+    right: -1rem;
+    margin: -26.5rem 0;
+   }
+   .dimg{
+    width: 14rem;
+    height: 20rem;
+    border-radius: 10px;
+    position: absolute;
+   }
+.themark{
+    width: 80vw;
+    margin: 5rem 10% ;
+}
+.testy{
+    position: relative;
+}
+.scrcover{
+    position: absolute;
+    top: 14.5rem;
+    border-bottom-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+    z-index:1 ;
+    opacity: 0;
+    margin: 1rem;
+    width: 81.7%;
+    height: 20%;
+    background-color: rgba(0, 0, 0, 0.684);
+}
+.delvier{
+    position: relative;   
+    height: 28rem;
+  
+}
+.pane{
+    background-color: rgb(55, 55, 55);
+    height: 28rem;
+    width: 95%;
+    border-radius: 10px;
+    position: relative;
+    padding: 1rem .7rem 1rem 1rem;
+}
+.delvier:hover .scrcover{
+     opacity: 1;
+}
+.social-media{
+    width: 20rem;
+    height: 15rem;
+    margin: 0rem 0rem;
+    display: flex;
+    
+}
+.social-media .first{
+    margin: 0rem -5rem;
+   
+}
+
+.media-pix{
+    cursor: pointer;
+    width: 15%;
+    margin: 1.2rem 5.5rem;
+    filter: invert(97%) sepia(100%) saturate(0%) 
+    hue-rotate(264deg) brightness(103%) contrast(105%);
+}
+.team-name{
+    margin: 5.5rem 1rem;
+    width: 14rem;
+    font-family: poppins;
+    font-size: 1rem;
+    letter-spacing: 1px;
+    font-weight: 600;
+    color:  rgb(248,244,243);
+}
+.price-desc{
+    margin: 21rem 0;
+    color: white;
+}
+.price-desc .desc{
+    margin: .5rem 0;
+    font-size: 1.3rem;
+    color: white;
+}
+.theprice{
+    font-size: 1.2rem;
+}
+.like{
+    width: 12%;
+    filter: invert(97%) sepia(100%) saturate(0%) 
+    hue-rotate(264deg) brightness(103%) contrast(105%);
+}
+.prices-wishlist{
+display: flex;
+
+}
+.price-desc .prices p{
+    margin: 0rem 8rem;
+    padding: .15rem 0;
+    font-size: 1rem;
+    width: 10rem;
+    color: white;
+}
