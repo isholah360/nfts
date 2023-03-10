@@ -1,5 +1,5 @@
 import React from 'react'
-import { Card, Header, List, Test } from '../../components'
+import { Card, Cards, Header, List, Test } from '../../components'
 
 function Home() {
   return (

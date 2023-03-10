@@ -119,11 +119,17 @@
        .processing{
         padding: .8rem 1.5rem;
         margin: 1rem -7rem;
+        cursor: pointer;
         position: absolute;
         border-style: none;
         color: white;
         border-radius: 5px;
         background-color: lightslategray;
        }
+       .processing a{
+        text-decoration: none;
+        color: white;
+       }
+       
     
 

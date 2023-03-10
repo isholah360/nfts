@@ -1,7 +1,8 @@
 import React, { useRef } from 'react'
 import './modal.css'
+import {Link} from 'react-router-dom'
 
-function Modal({price, title, creator, dollar} ) {
+function Modal({price, title, creator, dollar, imgs, main, link} ) {
   
   
   return (
@@ -18,10 +19,10 @@ function Modal({price, title, creator, dollar} ) {
                         <div className="buy-content">
                             
                             <div className="buy-img-price">
-                                <img className='compl-img' src="assets/14.jpg" alt="" />
+                                <img className='compl-img' src={main} alt="" />
                                 <div className="creator-price">
                                     <div className="creator-img-name">
-                                        <img className='creator-img' src="assets/14.jpg" alt="" />
+                                        <img className='creator-img' src={imgs} alt="" />
                                         <p className='creator-name'>{creator}</p>
                                     </div>
                                     <div className="stars">
@@ -39,7 +40,9 @@ function Modal({price, title, creator, dollar} ) {
                                             </p>
                                             </div>
                                     </div>
-                                    <button className='processing'>Make Payment</button>
+                                    <button className='processing'>
+                                       <Link to={link} target='_blank'> Make Payment</Link>
+                                        </button>
                                 </div>
                             </div>
                         </div>

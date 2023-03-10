@@ -4,7 +4,8 @@ import gsap from 'gsap'
 import Modal from './modal'
 
 
-function Card({price, title, creator, dollar} ) {
+function Card({price, title,  nfts,
+  creator, dollar, theimg, link } ) {
 
   const buttons = useRef(null)
   const butonMove = useRef(null)
@@ -38,7 +39,7 @@ function Card({price, title, creator, dollar} ) {
        <div className="theimg-content">
 
         <div className="theimg">
-          <img className='real-img' src="assets/14.jpg" alt="" />
+          <img className='real-img' src={nfts} alt="" />
         </div>
         <div className="thecontents">
           <div className="title-author">
@@ -71,7 +72,8 @@ function Card({price, title, creator, dollar} ) {
         <div className="modal-bg" ref={ref2} onMouseLeave={close}>
 
          <div className="close" onClick={close}>X</div>
-          <Modal dollar="$190" title="Audotocum" creator="Maxim Cox" price="0.9952"/>
+            <Modal dollar={dollar} title={title} main={nfts}
+            creator={creator} price={price} imgs={theimg} link={link}/>
         </div>
     </div>
  
